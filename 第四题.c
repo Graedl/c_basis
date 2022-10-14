@@ -136,7 +136,7 @@ void InsertList(LNode *list) {
 	r = list;
 	int n;
 	printf("请输入要插入的数据个数: \n ");
-	scanf("% d", &n);
+	scanf("%d", &n);
 	printf("请输入数据: \n");
 	while (n--) {
 		LNode *p = (LNode *)malloc(sizeof(LNode));
